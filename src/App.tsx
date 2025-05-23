@@ -5,9 +5,9 @@ export function App() {
 
   return (
     <div className="App">
-      <TwitterFollowCard formatUserName={formatUserName} userName="midudev" name="Midudev" isFollowing={false} />
-      <TwitterFollowCard formatUserName={formatUserName} userName="pipegarcial" name="Pige García" isFollowing={false} />
-      <TwitterFollowCard formatUserName={formatUserName} userName="elonmusk" name="Elon Musk" isFollowing={true} />
+      <TwitterFollowCard formatUserName={formatUserName} userName="midudev" name="Midudev" />
+      <TwitterFollowCard formatUserName={formatUserName} userName="pipegarcial" name="Pige García" />
+      <TwitterFollowCard formatUserName={formatUserName} userName="elonmusk" name="Elon Musk" />
     </div>
   )
 }
