@@ -84,6 +84,4 @@ function App() {
 ## Styling
 
 Styles are written in CSS and scoped to the component using CSS Modules. The main styles are located in the component's directory.
-  },
-})
 ```
