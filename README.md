@@ -65,7 +65,6 @@ function App() {
         formatUserName={formatUserName} 
         userName="midudev" 
         name="Midudev" 
-        isFollowing={false} 
       />
     </div>
   );
